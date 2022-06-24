@@ -7,4 +7,8 @@
 /public/bundles/
 /var/
 /vendor/
+/exo1.txt
+/src/Controller/PanierController.php
+/src/Controller/TestController.php
+/src/DataFixtures
 ###< symfony/framework-bundle ###
