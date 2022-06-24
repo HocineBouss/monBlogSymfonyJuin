@@ -17,7 +17,7 @@
            
             <h6>auteur de l'article</h6>
          
-            <p>{{ dernierArticle.contenu | slice(0, 150) }} .... <a href="">lire la suite</a></p>
+            <p>{{ dernierArticle.contenu | slice(0, 150) }} .... <a href="{{ path("app_article", {id: dernierArticle.id}) }}">lire la suite</a></p>
         </div>
     </div>
 {% endblock content %}
